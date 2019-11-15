@@ -371,4 +371,5 @@ releases:
         when:
           status == 'succeeded' ||
           status == 'failed' ||
-          status == 'false'
+          status == 'false' || 
+          status == 'true'
